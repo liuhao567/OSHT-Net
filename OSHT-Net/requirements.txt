@@ -1,0 +1,22 @@
+# OSHT-Net dependencies (tested with Python 3.10 / CUDA 12.1)
+#
+# Install torch/torchvision first for your CUDA version, e.g.:
+#   pip install torch==2.3.1 torchvision==0.18.1 --index-url https://download.pytorch.org/whl/cu121
+#
+# natten needs a wheel from the official index (do this before the others):
+#   pip install natten==0.17.1+torch230cu121 -f https://shi-labs.com/natten/wheels/
+#
+# Then:
+#   pip install -r requirements.txt
+torch==2.3.1
+torchvision==0.18.1
+timm==0.6.12
+mmengine==0.2.0
+mmcv==2.1.0
+einops
+opencv-python
+scikit-learn
+scikit-image
+cellpose
+pandas
+tqdm

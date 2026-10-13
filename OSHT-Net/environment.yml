@@ -1,0 +1,11 @@
+name: oshtnet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # torch + torchvision are listed in requirements.txt; install them with
+      # the cu121 index first if you use pip (see README for exact commands).
+      - -r requirements.txt
