@@ -21,7 +21,7 @@ OSHT-Net classifies a breast histopathology ROI into seven subtypes (N, PB, UDH,
 | `edge` | ViT-Small (ImageNet) | 64×64 boundary patches | 384 |
 | `cell` | UNI ViT-Large | 64×64 nucleus-centered patches | 1024 |
 
-## Results (BRACS validation, %)
+## Results (BRACS, %)
 
 | Method | 7-cls Bal.Acc | 7-cls W-F1 | 7-cls M-Prec | 7-cls M-AUC | 3-cls Bal.Acc | 3-cls W-F1 | 3-cls M-AUC |
 |---|---:|---:|---:|---:|---:|---:|---:|
